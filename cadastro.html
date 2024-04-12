@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
+    <title>Fashio Store</title>
+</head>
+<body>
+    <header>
+        <h1 class="nome_loja"> Fashion Store</h1>
+        <ul class="menu">
+            <a href="pagina_inicial.html"><li class="menu_link">Home</li></a>
+            <a href="sobre_nos.html"><li class="menu_link">Sobre nós</li></a>
+            <a href="cadastro.html"><li class="menu_link">Cadastro</li></a>
+        </ul>
+    </header>
+    <main>
+        <form action="outra_pagina.html" method="get">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label class="label-40 ">
+                    Nome: <input type="text" name="txt_name" placeholder="Seu Nome Completo" required/>
+                </label>
+                <label class="label-40 ">
+                    E-mail: <input type="text" name="txt_email" placeholder="Seu Melhor E-mail" required/>
+                </label>
+                <label class="label-40 ">
+                    Telefone: <input type="number" name="txt_telefone" placeholder="Seu Telefone" required/>
+                </label>
+                <label class="label-40 ">
+                    Data de Nascimento: <input type="date" name="txt_date_nasc" required/>
+                </label>
+                <label class="label-40 ">
+                    CPF: <input type="number" name="txt_cpf" placeholder="Somente Números" required/>
+                </label>
+                <label class="label-40 " >
+                    RG: <input type="number" name="txt_rg" placeholder="Somente Números" required/>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label class="label-40 ">
+                    Rua: <input type="text" name="txt_rua" required/>
+                </label>
+                <label class="label-40 ">
+                    Numero: <input type="number" name="txt_numero" required/>
+                </label>
+                <label class="label-40 ">
+                    Bairro: <input type="text" name="txt_bairro" required/>
+                </label>
+                <label class="label-40 " >
+                    Cidade: <input type="text" name="txt_cidade" required/>
+                </label>
+                <label class="label-40 ">
+                    Estado:
+                    <select>
+                        <option value="">Selecione...</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazônia</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernanbuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondonia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </label>
+            </fieldset>
+                <p class="center" >
+                    <button type="submit" class="botao">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+        </form>
+    </main>
+    </main>
+</body>
+</html>

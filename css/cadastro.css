@@ -1,0 +1,54 @@
+fieldset{
+    padding: 1%;
+    border-radius: 10px;
+    background: #dbdada;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+    margin-top: 2%;
+}
+
+legend{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #000000;
+    padding: .5%;
+    border: 1px solid #000000;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    color: white;
+}
+
+label, input, select{
+    display: block; box-sizing: border-box;
+}
+
+label{
+    padding: 5px;
+}
+
+input, select{
+    width: 100%; border: 1px outset; padding: 10px; border-radius: 10px;
+}
+
+.center {
+    text-align: center; padding: 2%;
+}
+.label-40 {
+    width: 33%; float: left;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #eee;
+    border: 1px solid #666;
+    border-radius: 7px;
+}
+
+button:hover { background-color: #ddd;}
+button:active { background-color: #666;}
+
+.botao{background-color: rgba(207, 114, 114, 0.486);}
+

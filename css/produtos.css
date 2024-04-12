@@ -1,0 +1,45 @@
+.modal {
+background-color: #f7f7f7;
+width: 450px;
+margin: 3.5%;
+padding: auto;
+text-align: center;
+border: 1px solid #474747;
+border-radius: 10px;
+margin-left: 5.5%;
+height: 350px;
+box-shadow: 5px 5px 5px gray    ;
+}
+
+#item {
+    width: 200px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 250px;
+    width: 720px;
+}
+
+.descricao_item {
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: rgb(0, 0, 0);
+    border: 1px solid #666;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px gray;
+}
